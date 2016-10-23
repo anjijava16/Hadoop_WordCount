@@ -32,7 +32,7 @@ public class WordCountJob  implements Tool{// Initializing configuration object
 		Job wordCountJob = new Job(getConf());
 
 		// setting the job name
-		wordCountJob.setJobName("Orien IT WordCount Job");
+		wordCountJob.setJobName("IWT Job");
 
 		// to call this as a jar
 		wordCountJob.setJarByClass(this.getClass());
